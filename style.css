@@ -12,28 +12,10 @@
 
 body{
     font-size: 20px;
-    color: #F7F7F7;
-    background-color: #2a2e34;
-    font-family: 'Roboto', sans-serif;
-    
+    color: #EEEEEE;
+    background-color: rgba(0, 0, 0, 1);
+    font-family: 'Roboto', sans-serif;   
 }   
-
-@media (max-width: 720px) {
-    body{
-        font-size: 18px;
-    }
-}
-
-@media (max-width: 440px) {
-    body{
-        font-size: 16px;
-    }
-}
-
-h2, h3{
-    font-family: 'Chivo Mono', monospace;   
-}
-
 
 a {
     text-decoration: none;
@@ -43,6 +25,10 @@ a {
 
 img {
     max-width: 100%;
+}
+
+h2, h3{
+    font-family: 'Chivo Mono', monospace;   
 }
 
 .col40 {
@@ -171,7 +157,8 @@ header {
 .menu{
     width: 360px;
     height: 100vh;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.6);
+    
     position: fixed;
     top: 0;
     right: -360px;
@@ -201,6 +188,7 @@ header {
     color: rgba(255, 255, 255, 0.75);
     font-size: 1.5rem;
     transition: 1000ms all ease-in-out;
+    color: #F6F4F4;
 }
 
 .rr-ss {
@@ -229,8 +217,6 @@ header {
     text-align: center;
     width: 100%;
 }
-
-
 
 
 .logo {
@@ -300,15 +286,6 @@ header {
     height: 35rem;
 }
 
-.prueba{
-    background-image: url('images/otros.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    
-}
-
-
 /* parallax */
 
 .fila.parallax { 
@@ -326,7 +303,7 @@ header {
     font-weight: bold;
     font-size: 4rem;
     padding: 0rem 2rem;
-    background-color: #393e466d;
+    background-color: rgba(0, 0, 0, 0.4);
 } 
 
 /* Trabajos */
@@ -367,7 +344,7 @@ header {
 .front, .back {
     backface-visibility: hidden;
     box-sizing: border-box;
-    color: #2a2e34;
+    color: black;
     display: block;
     font-size: 1.2em;
     height: 100%;
@@ -380,11 +357,11 @@ header {
 .front img{
     margin-top: 1rem;
     border-radius: 0.5rem;
-    box-shadow: 1px 1px 10px #2a2e34;
+    box-shadow: 1px 1px 10px black;
 }
 
 .card .back {
-    background-color: #2a2e34;
+    background-color: black;
     color: #F7F7F7;
     box-shadow: 1px 1px 10px #F7F7F7;
     border-radius: 0.5rem;
@@ -518,7 +495,7 @@ header {
     left: 0;
     width: 70%;
     height: 100%;
-    background: #2a2e34;
+    background: black;
     transition: .5s;
     transform-origin: left;
     transform: perspective(2000px) rotateY(-90deg);
@@ -542,7 +519,7 @@ header {
     margin: 0;
     margin-top: 1rem;
     padding: 0;
-    color: #393E46;
+    color: black;
     line-height: 20px;
     font-size: 1.8rem;
     line-height: 1.7rem;
@@ -553,7 +530,7 @@ header {
     font-size: 1rem;   
     margin: 10px 0;
     padding: 0;
-    color: #393E46;
+    color: black;
 }
 
 /* Flecha arriba */
@@ -561,7 +538,7 @@ header {
 .ir-arriba {
 	display:none;
 	padding:0.5rem;
-	background-color: #2a2e34;
+	background-color: black;
 	cursor:pointer;
 	position: fixed;
 	bottom:20px;
@@ -585,7 +562,7 @@ footer {
 footer h2 {
     margin-top: 0.5rem;
     font-size: 1.7rem;
-    color: #2a2e34;
+    color: black;
     display: flex;
     font-weight: bold;
     justify-content: center;
@@ -595,7 +572,7 @@ footer h2 {
 footer p{
     display: flex;
     font-size: 1.2rem;
-    color: #2a2e34;
+    color: black;
     text-align: center;
 }
 
